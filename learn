@@ -1,0 +1,131 @@
+echo '
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Miller | About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4a7c59;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4a7c59;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .about img {
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .about p {
+            flex-grow: 1;
+        }
+
+        .projects, .skills, .blog, .contact {
+            margin-top: 40px;
+        }
+
+        .project-item {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4a7c59;
+            color: white;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #4a7c59;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #3b624b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Alex Miller</h1>
+    <p>Leadership Enthusiast | Entrepreneur | World Traveler</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills & Experiences</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <img src="your-image.jpg" alt="Alex Miller">
+    <div>
+        <h2>About Me</h2>
+        <p>Hello! I’m Alex Miller, a sophomore at an alternative high school specializing in leadership and entrepreneurship. I'm passionate about developing leadership skills, learning through real-world experiences, and exploring cultures. Having traveled to over 15 countries and 5 continents, my global adventures have shaped my perspective on leadership and personal growth. I enjoy sharing my insights through my blog where I write about my experiences and the lessons I’ve learned from around the world.</p>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-item">
+        <h3>My Travel Blog</h3>
+        <p>A blog where I share my experiences from traveling across continents, focusing on cultural insights, personal growth, an
